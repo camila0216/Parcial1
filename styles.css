@@ -1,3 +1,29 @@
 h1 {
   font-family: "Satisfy", cursive;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+#carrito {
+  vertical-align: middle;
+}
+
+.card img {
+  height: 220px;
+  width: 100%;
+}
+
+#cancel,
+#no {
+  background-color: tomato;
+  border-radius: 5px;
+  border-color: lightgrey;
+}
+
+#confirm,
+#yes {
+  background-color: blanchedalmond;
+  border-radius: 5px;
+}
