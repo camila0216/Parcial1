@@ -186,6 +186,7 @@ function loadTable() {
   const totalP = document.createElement("p");
   totalP.textContent = "Total: $" + Number(total.toFixed(2));
   totalP.classList.add("col-9");
+  totalP.classList.add("bold");
   totalP.id = "total";
   lastRow.appendChild(totalP);
 
